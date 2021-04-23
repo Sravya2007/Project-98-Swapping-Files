@@ -21,7 +21,7 @@ def swapFileData():
         readData2 = swappedData2.read()
 
     print("Files swapped!")
-    print("Data in file 1: " + readData1)
-    print("Data in file 2: " + readData2)
+    print("Data in " + fileName1 + ": " + readData1)
+    print("Data in " + fileName2 + ": " + readData2)
 
 swapFileData()
